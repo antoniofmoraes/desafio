@@ -10,4 +10,4 @@ Primeiramente é necessário ter o NodeJS (https://nodejs.org/en/) e o python (h
 Também é necessário ter o pip instalado, caso não tenha use este ou qualquer outro tutorial pra instalar (https://phoenixnap.com/kb/install-pip-windows).
 
 
-# CLI
+### CLI
