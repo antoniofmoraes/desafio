@@ -1,16 +1,43 @@
-## Insights by Antonio Moraes
+## Desafio
 
-Bem vindo ao Isights.
-Este é um projeto feio com base no desafio proposto, o desafio proposto pode ser lido [aqui] (https://github.com/antoniofmoraes/desafio/DesafioProposto.md).
-Este projeto é divido em 3 partes, a API, a CLI e o Front-End.
-
+Precisamos desenvolver uma ferramenta para criação de Cards de conteúdo esportivos (Insights).
 
 ### 1. Interace HTTP REST API
 
-A API foi feita em python usando o framework FastAPI e encontra-se [aqui] (https://github.com/antoniofmoraes/desafio/API).
+Ações da API
 
+- Criar card
+- Ler card
+- Remover card
+- Atualizar card
+- Listar card
+- Filtrar por tags
 
+Um card possui os campos: 
+```
+{
+  "id": // identificador
+  "texto" // texto do card
+  "data_criacao" // data da criação do card
+  "data_modificacao" // data da última alteração do card
+  "tags" // tags vinculas ao card
+}
+```
 
+- Criar Tag
+- Ler Tag
+- Remover Tag
+- Atualizar Tag
+
+```
+Uma tag possui os campos:
+{
+  "id" // identificador
+  "name" // nome da tag
+}
+```
+
+Temos uma estimativa de milhares de criações de cards diariamente. A preocupação com performance será avaliada.
 
 ### 2. CLI para importação dos card
 

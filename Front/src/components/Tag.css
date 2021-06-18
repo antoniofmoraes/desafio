@@ -1,0 +1,20 @@
+.Tag {
+    /* background-color:black; */
+    border-radius: 4px;
+    border-width: 5px;
+    padding: 4px;
+    border: 2px solid rgb(237, 77, 119);
+    border: 2px solid rgba(237, 77, 119, 0.24);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    width: fit-content;
+}
+
+.Tag p {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    color:#ED4D77;
+    margin-bottom: 0rem;
+}
