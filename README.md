@@ -67,6 +67,7 @@ O aplicativo esta configurado para rodar no url http://127.0.0.1:3000 .
 ## Informações para contato
 
 ### Antonio Felype F. Moraes
+
 E-mail: antonio.f.f.moraes@gmail.com
 Fone: 41 99662-4022
 LinkedIn: https://www.linkedin.com/in/antonio-moraes-78a033151/
