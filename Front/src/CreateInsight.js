@@ -19,13 +19,10 @@ const CreateInsight = () => {
             console.log(err.stack);
         });
 
-        setInsight('');
-        setTags('');
-
         return unsub;
-    }
+    };
 
-    return(
+    return (
         <div className="CreateInsightPage">
             <div className="HeaderCreateInsight">
                 <Link to="/">
@@ -40,13 +37,13 @@ const CreateInsight = () => {
             <div className="BodyCreateInsight">
                 <div className="FormCreateInsight">
                     <label>INSIGHT</label>
-                    <input type="text" style={{height: '196px'}} onChange={(event) => setInsight(event.target.value)}/>
+                    <input type="text" style={{height: '196px'}} onChange={(event) => setInsight(event.target.value)} value={insight}/>
                     <h6>Limite de caracteres: 400</h6>
                     <label>CATEGORIA</label>
-                    <input type="text" style={{height: '32px'}} onChange={(event) => setTags(event.target.value)}/>
+                    <input type="text" style={{height: '32px'}} onChange={(event) => setTags(event.target.value)} value={tags}/>
                 </div>
             </div>
-            <input onClick={() => handleNewCard()} className="ButtonCreateInsight" type="button" value="PUBLICAR"/>
+            <input onClick={() => { handleNewCard(); setInsight(''); setTags('')}} className="ButtonCreateInsight" type="button" value="PUBLICAR"/>
         </div>
     );
 };

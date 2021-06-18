@@ -84,15 +84,16 @@ def create_card(request: Request):
     
     card = {
         u'text': data['text'],
+        u'tags': data['tags'].split(',') if 'tags' in data else [],
         u'crate_date': firestore.SERVER_TIMESTAMP,
         u'update_date': firestore.SERVER_TIMESTAMP
     }
 
     result = db.collection(u'cards').add(card)
 
-    if 'tags' in data:
-        for tag in data['tags'].split(','):
-            db.collection(u'cards').document(result[1].id).collection(u'tags').add({ u'name': tag})
+    # if 'tags' in data:
+    #     for tag in data['tags'].split(','):
+    #         db.collection(u'cards').document(result[1].id).collection(u'tags').add({ u'name': tag})
 
     return result[1].id
 

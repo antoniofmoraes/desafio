@@ -7,7 +7,7 @@ const Card = ({ cardData }) => {
     const [tags, setTags] = useState([]);
 
     useEffect(() => {
-        if (cardData.hasOwnProperty('tags')) {
+        if (cardData.hasOwnProperty('tags') ) {
             setTags(cardData.tags);
         }
     }, []);
@@ -17,7 +17,7 @@ const Card = ({ cardData }) => {
             <p>{cardData.text}</p>
             <div className="Tags">
                 {tags.map(tag => 
-                    <Tag name={tag}/>
+                    <Tag name={tag.trim()}/>
                 )}
             </div>
         </div>
