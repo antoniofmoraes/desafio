@@ -57,10 +57,16 @@ Os próximos comandos você ira rodar com o ambiente virtual ativado mas caso qu
   python main.py
 ```
 
-A API está configurada para rodar no http://127.0.0.1:3000
+A API está configurada para rodar no url http://127.0.0.1:3000 .
 
 ### Front-End
 
-Aqui é só entrar na pasta do app ('desafio/Front'), rodar o comando ```npm install``` para instalar as dependencias e rodar o comando ````npm start```.
+Aqui é só entrar na pasta do app ('desafio/Front'), rodar o comando ```npm install``` para instalar as dependencias e rodar o comando ```npm start```.
+O aplicativo esta configurado para rodar no url http://127.0.0.1:3000 .
 
+## Informações para contato
 
+### Antonio Felype F. Moraes
+E-mail: antonio.f.f.moraes@gmail.com
+Fone: 41 99662-4022
+LinkedIn: https://www.linkedin.com/in/antonio-moraes-78a033151/
