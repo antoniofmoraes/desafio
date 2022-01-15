@@ -68,6 +68,5 @@ O aplicativo esta configurado para rodar no url http://localhost:3000 .
   
 ### Antonio Felype F. Moraes  
   
-E-mail: antonio.f.f.moraes@gmail.com  
-Fone: 41 99662-4022  
+E-mail: antonio.f.f.moraes@gmail.com
 LinkedIn: https://www.linkedin.com/in/antonio-moraes-78a033151/  
